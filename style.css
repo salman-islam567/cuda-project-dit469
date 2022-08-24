@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(106, 75, 134);
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(38, 143, 143); */
+}
+nav{
+ margin-top: 6%;
+ margin-left: 10%;
+}
+nav a{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.logo-part{
+    width: 40%;
+    float: left;
+}
+.menu-part{
+    width: 60%;
+    float: left;
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    padding: 7%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-top: 6%;
+}
+button{
+    background-color: rgb(199, 103, 69);
+    width: 30%;
+    padding: 3%;
+    margin: 6%;
+    border-radius: 5px;
+}
+#service{
+    background-color: rgb(41, 202, 149);
+    width: 100%;
+    float: left;
+    color: white;
+}
+.writing-part{
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+}
+.writing-part p{
+    padding: 3%;
+    font-size: 20px;
+}
+.writing-part h1{
+    font-size: 40px;
+}
+.service-box{
+    width: 25%;
+    float: left;
+}
+.service-box h1{
+    padding: 5%;
+}
+.service-box p{
+    padding-bottom: 50%;
+}
